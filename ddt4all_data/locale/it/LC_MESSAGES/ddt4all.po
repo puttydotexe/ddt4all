@@ -1001,7 +1001,7 @@ msgstr "Chiudi"
 msgid "WiFi port : "
 msgstr "Porta Wi-Fi : "
 
-msgid "I'm aware that I can harm my car if badly used"
+msgid "I'm aware that I can harm my vehicle if incorrectly used"
 msgstr "Sono consapevole che in caso di uso errato potrei danneggiare l'auto"
 
 msgid "Dark style"

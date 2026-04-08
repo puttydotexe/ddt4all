@@ -1700,7 +1700,7 @@ class main_window_options(widgets.QDialog):
         safetychecklayout = widgets.QHBoxLayout()
         self.safetycheck = widgets.QCheckBox()
         self.safetycheck.setChecked(False)
-        safetylabel = widgets.QLabel(_("I'm aware that I can harm my car if badly used"))
+        safetylabel = widgets.QLabel(_("I'm aware that I can harm my vehicle if incorrectly used"))
         safetychecklayout.addWidget(self.safetycheck)
         safetychecklayout.addWidget(safetylabel)
         safetychecklayout.addStretch()

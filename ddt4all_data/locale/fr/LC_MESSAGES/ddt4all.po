@@ -942,7 +942,7 @@ msgstr "Fermer"
 msgid "WiFi port : "
 msgstr "Port WIFI : "
 
-msgid "I'm aware that I can harm my car if badly used"
+msgid "I'm aware that I can harm my vehicle if incorrectly used"
 msgstr ""
 "Je suis conscient que je risque d'endomager mon véhicule avec cette "
 "application si je ne suis pas vigilant"

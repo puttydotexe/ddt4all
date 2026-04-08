@@ -933,7 +933,7 @@ msgstr "Close"
 msgid "WiFi port : "
 msgstr "WiFi port: "
 
-msgid "I'm aware that I can harm my car if badly used"
+msgid "I'm aware that I can harm my vehicle if incorrectly used"
 msgstr "Jsem si vědom/a toho, že při špatném používání můžu své auto poškodit"
 
 msgid "Dark style"

@@ -913,7 +913,7 @@ msgstr ""
 msgid "WiFi port : "
 msgstr ""
 
-msgid "I'm aware that I can harm my car if badly used"
+msgid "I'm aware that I can harm my vehicle if incorrectly used"
 msgstr ""
 
 msgid "Dark style"

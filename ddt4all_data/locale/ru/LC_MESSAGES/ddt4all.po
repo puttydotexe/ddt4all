@@ -989,7 +989,7 @@ msgstr "Закрыть"
 msgid "WiFi port : "
 msgstr "WiFi порт : "
 
-msgid "I'm aware that I can harm my car if badly used"
+msgid "I'm aware that I can harm my vehicle if incorrectly used"
 msgstr "Я понимаю, что могу навредить моему автомобилю"
 
 msgid "Dark style"

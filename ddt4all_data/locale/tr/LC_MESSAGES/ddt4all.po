@@ -975,7 +975,7 @@ msgstr "Kapat"
 msgid "WiFi port : "
 msgstr "WiFi bağlantı noktası : "
 
-msgid "I'm aware that I can harm my car if badly used"
+msgid "I'm aware that I can harm my vehicle if incorrectly used"
 msgstr "Hatalı kullanırsam arabama zarar verebileceğimin farkındayım"
 
 msgid "Dark style"
