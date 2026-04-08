@@ -63,6 +63,15 @@ lang_list = {
 }
 
 
+def backup_config():
+    try:
+        os.rename("ddt4all_data/config.json", "ddt4all_data/config.json.invalid")
+        print("Old configuration moved to config.json.invalid")
+    except FileNotFoundError:
+        print("Failed to backup old configuration: config.json not found")
+        pass
+
+
 def save_config():
     # print(f'Save ddt4all_data/config.json lang: {configuration["lang"]} -> Ok.')
     js = json.dumps(configuration, ensure_ascii=False, indent=True)
@@ -88,8 +97,9 @@ def create_new_config():
 
 def load_configuration():
     try:
-        f = open("ddt4all_data/config.json", "r", encoding="UTF-8")
-        config = json.loads(f.read())
+        with open("ddt4all_data/config.json", "r", encoding="UTF-8") as f:
+            config = json.loads(f.read())
+
         # load config as multiplatform (mac fix macOs load conf)
         configuration["lang"] = config.get("lang", get_translator_lang())
         configuration["dark"] = config.get("dark", False)
@@ -108,8 +118,13 @@ def load_configuration():
         
         os.environ['LANG'] = str(configuration["lang"])
         f.close()
+    except FileNotFoundError:
+        print("Configuration not found, generating fresh configuration...")
+        create_new_config()
     except Exception as e:
         print(f"Error loading configuration: {e}")
+        backup_config()
+        print("Generating fresh configuration...")
         create_new_config()
 
 
